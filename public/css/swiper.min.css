@@ -29,6 +29,32 @@
   padding: 0;
   z-index: 1;
 }
+
+.testimonials-one .swiper-slide {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.testimonials-one__box {
+  width: 100%;
+  max-width: 100%;
+}
+
+.testimonials-one__box p span {
+  display: block;
+  width: 100%;
+  white-space: normal;
+}
+
+@media (max-width: 767px) {
+  .testimonials-one .swiper-slide {
+    display: block !important;
+  }
+
+  .testimonials-one__box {
+    padding: 30px 20px;
+  }
+}
 .swiper-container-vertical > .swiper-wrapper {
   flex-direction: column;
 }

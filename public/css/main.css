@@ -4690,6 +4690,17 @@ h6 {
   }
 }
 
+@media (max-width: 767px) {
+  .why-choose__image::before {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  .why-choose {
+    overflow: hidden;
+  }
+}
 .why-choose__image > p {
   position: absolute;
   bottom: calc(100% + 20px);
