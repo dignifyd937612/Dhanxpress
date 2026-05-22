@@ -34,7 +34,7 @@ const Footer = () => {
               <div className="footer-widget footer-widget__about">
                 <Link href="index.html">
                   <img src="assets/images/logo-light.png" width="155" alt="" />
-                 </Link>
+                </Link>
                 <p>
                   Welcome to pylon loand company we are provide loan as very
                   reasonably interest and you can provide document etur labore.
@@ -57,32 +57,32 @@ const Footer = () => {
                   <li>
                     <Link href="/">
                       <i className="fa fa-arrow-right"></i>Home
-                     </Link>
+                    </Link>
                   </li>
                   <li>
                     <Link href="/aboutus">
                       <i className="fa fa-arrow-right"></i>About Us
-                     </Link>
+                    </Link>
                   </li>
                   <li>
                     <Link href="/personal-loan-calculator">
                       <i className="fa fa-arrow-right"></i>Calculator
-                     </Link>
+                    </Link>
                   </li>
                   <li>
                     <Link href="/personal-loan-eligibility">
                       <i className="fa fa-arrow-right"></i>Eligibility
-                     </Link>
+                    </Link>
                   </li>
                   <li>
                     <Link href="/contactus">
                       <i className="fa fa-arrow-right"></i>Contact
-                     </Link>
+                    </Link>
                   </li>
                   <li>
                     <Link href="/blogs">
                       <i className="fa fa-arrow-right"></i>Blogs
-                     </Link>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -98,7 +98,7 @@ const Footer = () => {
                       <h3>
                         <Link href="news-details.html">
                           We’re Providing the Quality Services
-                         </Link>
+                        </Link>
                       </h3>
                     </div>
                   </li>
@@ -109,7 +109,7 @@ const Footer = () => {
                       <h3>
                         <Link href="news-details.html">
                           We’re Providing the Quality Services
-                         </Link>
+                        </Link>
                       </h3>
                     </div>
                   </li>
@@ -123,19 +123,19 @@ const Footer = () => {
                   <li>
                     <Link href="mailto:needhelp@company.com">
                       <i className="pylon-icon-email1"></i>needhelp@company.com
-                     </Link>
+                    </Link>
                   </li>
                   <li>
                     <Link href="#">
                       <i className="pylon-icon-clock2"></i>Mon - Sat 8:00 AM -
                       6:00 PM
-                     </Link>
+                    </Link>
                   </li>
                   <li>
                     <Link href="#">
-                      <i className="pylon-icon-pin1"></i>80 Broklyn Golden
-                      Street, New York. USA
-                     </Link>
+                      <i className="pylon-icon-pin1"></i>Noida , Sector-2 Near
+                      Noida 16
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -147,10 +147,18 @@ const Footer = () => {
         <div className="container">
           <p>© Copyright 2023 by Company.com</p>
           <div className="bottom-footer__social">
-            <Link href="#" className="fab fa-facebook-f"> </Link>
-            <Link href="#" className="fab fa-twitter"> </Link>
-            <Link href="#" className="fab fa-pinterest-p"> </Link>
-            <Link href="#" className="fab fa-instagram"> </Link>
+            <Link href="#" className="fab fa-facebook-f">
+              {" "}
+            </Link>
+            <Link href="#" className="fab fa-twitter">
+              {" "}
+            </Link>
+            <Link href="#" className="fab fa-pinterest-p">
+              {" "}
+            </Link>
+            <Link href="#" className="fab fa-instagram">
+              {" "}
+            </Link>
           </div>
         </div>
       </div>

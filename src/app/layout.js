@@ -17,11 +17,21 @@ import "../../public/css/bootstrap-select.min.css";
 import "../../public/css/custom-animation.css";
 import "../../public/css/magnific-popup.css";
 import "../../public/css/odometer.min.css";
+import favicon from "../assets/common/dhan-xpress-logo.png";
 
 import Script from "next/script";
 import Footer from "@/components/common/Footer";
 import Header from "@/components/common/Header";
 import ScriptInitializer from "@/components/common/ThemeInitializer";
+
+export const metadata = {
+  title: "DhanExpress - Trusted Loan Provider",
+  icons: {
+    icon: favicon.src,
+  },
+  description:
+    "DhanExpress offers fast, secure, and hassle-free loan services with easy eligibility checks, instant calculations, and quick approvals.",
+};
 
 export default function RootLayout({ children }) {
   return (

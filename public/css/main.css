@@ -2370,6 +2370,27 @@ h6 {
   transform: rotate(-45deg);
 }
 
+.mobile-nav__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 99;
+}
+
+.mobile-nav__close i {
+  color: #fff !important;
+}
+
 .mobile-nav__content .main-menu__list,
 .mobile-nav__content .main-menu__list ul {
   margin: 0;
@@ -4732,6 +4753,80 @@ h6 {
 .why-choose__content > p {
   margin-bottom: 40px;
   color: #555c63;
+}
+
+.mobile-nav__content {
+  background-color: #ffffff;
+}
+
+.mobile-nav__menu {
+  margin-top: 40px;
+}
+
+.mobile-nav__menu li {
+  border-bottom: 1px solid #ececec;
+}
+
+.mobile-nav__menu li a {
+  display: block;
+  padding: 14px 0;
+  color: #071c3c;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.mobile-nav__menu li a:hover {
+  color: var(--primary);
+}
+
+.mobile-nav__menu li.current a {
+  color: var(--primary);
+}
+
+.mobile-nav__contact {
+  margin-top: 35px;
+}
+
+.mobile-nav__contact li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  color: #071c3c;
+}
+
+.mobile-nav__contact li i {
+  color: var(--primary);
+  font-size: 18px;
+}
+
+.mobile-nav__contact li a {
+  color: #071c3c;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.mobile-nav__social {
+  margin-top: 30px;
+  display: flex;
+  gap: 14px;
+}
+
+.mobile-nav__social a {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.mobile-nav__social a:hover {
+  background-color: #071c3c;
 }
 
 @media (max-width: 991px) {
