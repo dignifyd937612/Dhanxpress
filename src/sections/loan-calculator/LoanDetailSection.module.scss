@@ -1,0 +1,40 @@
+.sectionHeading {
+  font-size: 42px;
+  font-weight: 700;
+  color: #0c2340;
+  margin-bottom: 14px;
+  line-height: 1.4;
+}
+
+.sectionDescription {
+  font-size: 17px;
+  color: #5d6b82;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: auto;
+}
+
+.infoBox {
+  border: 2px solid var(--primary);
+  border-radius: 18px;
+  padding: 40px 45px;
+  background: #fff;
+}
+
+.listItem {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #5d6b82;
+
+  span {
+    font-weight: 700;
+    color: #0c2340;
+  }
+}
+
+.formulaText {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0c2340;
+  margin-bottom: 28px;
+}

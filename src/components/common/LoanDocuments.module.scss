@@ -1,0 +1,279 @@
+.loanDocumentsSection {
+  padding: 80px 0;
+  background: #f5f7fb;
+}
+
+.loanDocumentsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.loanDocumentsHeading {
+  text-align: center;
+  margin-bottom: 50px;
+
+  h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #071c3c;
+    margin-bottom: 14px;
+    line-height: 1.2;
+  }
+
+  p {
+    font-size: 16px;
+    color: #6b7280;
+    max-width: 750px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+}
+
+.loanDocumentsWrapper {
+  background: #ffffff;
+  border-radius: 26px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.06);
+  border: 1px solid #edf0f5;
+}
+
+.loanDocumentsSidebar {
+  background: #f8fafc;
+  border-right: 1px solid #e5e7eb;
+}
+
+.loanDocumentsTab {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 28px 24px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-left: 4px solid transparent;
+
+  &:hover {
+    background: #ffffff;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #071c3c;
+    margin: 0;
+    text-align: left;
+  }
+}
+
+.active {
+  background: #ffffff;
+  border-left-color: var(--primary);
+}
+
+.loanDocumentsIcon {
+  min-width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.greenGradient {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+}
+
+.pinkGradient {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+}
+
+.orangeGradient {
+  background: linear-gradient(135deg, #facc15, #f97316);
+}
+
+.loanDocumentsContent {
+  padding: 45px 55px;
+}
+
+.loanDocumentsTop {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 35px;
+
+  h2 {
+    font-size: 42px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1.2;
+  }
+}
+
+.loanDocumentsMainIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.greenText {
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pinkText {
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.orangeText {
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.loanDocumentsList {
+  border-top: 1px solid #e5e7eb;
+}
+
+.loanDocumentsItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 24px 0;
+  border-bottom: 1px solid #edf0f5;
+}
+
+.loanDocumentsLeft {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  svg {
+    min-width: 18px;
+    color: #6b7280;
+  }
+
+  p {
+    margin: 0;
+    font-size: 18px;
+    color: #1e293b;
+    line-height: 1.6;
+  }
+}
+
+.loanDocumentsFormat {
+  background: #f3f4f6;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 10px 18px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.loanDocumentsFooter {
+  text-align: center;
+  padding-top: 35px;
+
+  p {
+    color: #64748b;
+    font-size: 16px;
+    margin-bottom: 22px;
+  }
+
+  button {
+    border: none;
+    outline: none;
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 34px;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 10px 30px var(--accent);
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .loanDocumentsWrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .loanDocumentsSidebar {
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .loanDocumentsContent {
+    padding: 35px 24px;
+  }
+
+  .loanDocumentsTop {
+    h2 {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .loanDocumentsHeading {
+    h2 {
+      font-size: 30px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .loanDocumentsTab {
+    padding: 22px 18px;
+
+    h3 {
+      font-size: 16px;
+    }
+  }
+
+  .loanDocumentsTop {
+    align-items: flex-start;
+
+    h2 {
+      font-size: 24px;
+    }
+  }
+
+  .loanDocumentsItem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .loanDocumentsLeft {
+    p {
+      font-size: 15px;
+    }
+  }
+}
