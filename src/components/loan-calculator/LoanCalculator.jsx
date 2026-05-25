@@ -6,7 +6,6 @@ const LoanCalculator = () => {
       <section className="contact-two">
         <div className="container">
           <div className="row">
-            {/* LEFT SIDE */}
 
             <div className="col-md-7">
               <div className="loan-slider-box">
@@ -18,7 +17,6 @@ const LoanCalculator = () => {
                   </h3>
                 </div>
 
-                {/* LOAN AMOUNT */}
 
                 <div className="single-loan-slider">
                   <h4>Loan Amount</h4>
@@ -32,7 +30,6 @@ const LoanCalculator = () => {
                   </div>
                 </div>
 
-                {/* LOAN MONTHS */}
 
                 <div className="single-loan-slider">
                   <h4>Loan Months</h4>
@@ -46,7 +43,6 @@ const LoanCalculator = () => {
                   </div>
                 </div>
 
-                {/* INTEREST RATE */}
 
                 <div className="single-loan-slider">
                   <h4>Interest Rate</h4>
@@ -62,7 +58,6 @@ const LoanCalculator = () => {
               </div>
             </div>
 
-            {/* RIGHT SIDE */}
 
             <div className="col-lg-5">
               <div

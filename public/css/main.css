@@ -1530,7 +1530,6 @@ h6 {
 .main-menu .main-menu__list,
 .stricky-header .main-menu__list {
   margin-left: auto;
-  border-right: 1px solid #e6eaef;
   padding-right: 0;
   margin-right: 30px;
 }
@@ -8372,6 +8371,25 @@ h6 {
 .contact-two {
   padding-top: 100px;
   padding-bottom: 70px;
+}
+
+.contact-two {
+  overflow-x: hidden;
+}
+
+.contact-two .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.loan-slider-box,
+.about-one__form {
+  width: 100%;
+  max-width: 100%;
+}
+
+.single-loan-slider {
+  overflow: hidden;
 }
 
 @media (max-width: 991px) {
