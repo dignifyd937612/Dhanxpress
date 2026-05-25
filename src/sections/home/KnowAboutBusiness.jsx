@@ -11,7 +11,6 @@ const KnowAboutBusiness = () => {
       <section className="feature-one">
         <Image src={shape1} alt="" className="feature-one__shape-1" />
         <Image src={shape2} alt="" className="feature-one__shape-2" />
-        <Image src={shape3} alt="" className="feature-one__shape-3" />
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
