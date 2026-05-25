@@ -29,10 +29,20 @@
   padding: 0;
   z-index: 1;
 }
-
 .testimonials-one .swiper-slide {
-  width: 100% !important;
-  height: auto !important;
+  width: calc((100% - 60px) / 3) !important;
+}
+
+@media (max-width: 991px) {
+  .testimonials-one .swiper-slide {
+    width: calc((100% - 30px) / 2) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonials-one .swiper-slide {
+    width: 100% !important;
+  }
 }
 
 .testimonials-one__box {
