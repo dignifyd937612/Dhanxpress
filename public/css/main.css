@@ -2344,52 +2344,61 @@ h6 {
 
 .mobile-nav__close {
   position: absolute;
-  top: 50px;
-  right: 15px;
-  font-size: 30px;
-  color: #fff;
-  font-weight: 100;
+  top: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  background: #f3a522;
+  border-radius: 50%;
   cursor: pointer;
 }
 
-.mobile-nav__close:after,
-.mobile-nav__close:before {
-  content: "";
+.mobile-nav__close:before,
+.mobile-nav__close:after {
   position: absolute;
-  width: 25px;
+  top: 50%;
+  left: 50%;
+  content: "";
+  width: 16px;
   height: 2px;
-  top: 0;
-  right: 3px;
-  background-color: #fff;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+  background: #fff;
+}
+
+.mobile-nav__close:before {
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 
 .mobile-nav__close:after {
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-.mobile-nav__close {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: var(--primary);
-  color: #fff !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  font-size: 16px;
-  z-index: 99;
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 
 .mobile-nav__close i {
   color: #fff !important;
 }
+.mobile-nav__contact li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.mobile-nav__contact li svg {
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #f3a522;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.mobile-nav__contact li a {
+  color: #0c2139;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
 
 .mobile-nav__content .main-menu__list,
 .mobile-nav__content .main-menu__list ul {
@@ -4821,7 +4830,6 @@ h6 {
 .mobile-nav__social {
   margin-top: 30px;
   display: flex;
-  gap: 14px;
 }
 
 .mobile-nav__social a {

@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 import logo from "../../assets/common/dhan-xpress-logo.png";
 
 import SearchModal from "./SearchModal";
+import { Mail, Phone } from "lucide-react";
 
 const Header = () => {
   const [openModal, setOpenModal] = useState(false);
@@ -119,6 +120,7 @@ const Header = () => {
         <div className="mobile-nav__overlay mobile-nav__toggler"></div>
 
         <div className="mobile-nav__content">
+          <div className="mobile-nav__close mobile-nav__toggler"></div>
           <div className="logo-box">
             <Link href="/" aria-label="mobile-logo">
               <Image src={logo} alt="Dhan Xpress" width={200} height={50} />
@@ -157,7 +159,7 @@ const Header = () => {
 
           <ul className="mobile-nav__contact list-unstyled">
             <li>
-              <i className="pylon-icon-email1"></i>
+              <Mail />
 
               <Link href="mailto:needhelp@company.com">
                 needhelp@company.com
@@ -165,7 +167,7 @@ const Header = () => {
             </li>
 
             <li>
-              <i className="pylon-icon-telephone"></i>
+              <Phone />
 
               <Link href="tel:+917065391654">+91 7065391654</Link>
             </li>

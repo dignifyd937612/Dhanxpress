@@ -255,6 +255,12 @@
         $(".mobile-nav__wrapper").toggleClass("expanded");
       });
 
+    $(document)
+      .off("click", ".mobile-nav__menu a")
+      .on("click", ".mobile-nav__menu a", function () {
+        $(".mobile-nav__wrapper").removeClass("expanded");
+      });
+
     // =========================
     // SEARCH TOGGLER
     // =========================
